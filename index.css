@@ -1,0 +1,29 @@
+body{
+    background-image: url('images/20220902_125836.jpg');
+    background-size: 1350px 1000px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 4px rgba(90, 132, 247, 0.699) ;
+}
+
+#all{
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.479);
+    border-radius: 10px;
+}
+
+#back{
+    border: 2px solid rgba(241, 239, 239, 0.719);
+    background-color: rgba(240, 248, 255, 0.788);
+	border-radius: 20px;
+	margin-left: 40%;
+	margin-right: 40%;
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media screen {
+    #all{
+        background: flex;
+    }
+}

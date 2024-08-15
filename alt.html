@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="alt.css">
+    <script src="alt.js"></script>
+</head>
+<div id="all">
+<body>
+        <h1 id="top" style="font-size: 150px;">Gallery
+    <nav id="back" style="font-size: 120px;">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="stats.html">Statistics</a>
+        <br>
+     </nav>
+    </h1>
+     
+     <br>
+    <div class="row">
+        <div class="column">
+            <img src="images\Img1.jpg" 
+            alt="Image 1"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img8.jpg"
+            alt="Image 2"class="gallery-img" onclick="showImage(src)" id="img2">
+            <img src="images\Img23.jpg"
+            alt="Image 20"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img18.jpg"
+            alt="Image 3"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img16.jpg"
+            alt="Image 4"class="gallery-img" onclick="showImage(src)">
+           <img src="images\Img11.jpg"
+            alt="Image 7"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img6.jpg"
+            alt="Image 18"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img9.jpg"
+            alt="Image 20"class="gallery-img" onclick="showImage(src)">
+        </div>
+        <div class="column">
+            <img src="images\Img15.jpg"
+            alt="Image 9"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img13.jpg"
+            alt="Image 10"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img22.jpg"
+            alt="Image 9"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img5.jpg"
+            alt="Image 11"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img19.jpg"
+            alt="Image 12"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img12.jpg"
+            alt="Image 5"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img2.jpg"
+            alt="Image 13"class="gallery-img" onclick="showImage(src)">
+         </div>
+        <div class="column">
+            <img src="images\Img14.jpg"
+            alt="Image 14"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img4.jpg"
+            alt="Image 15"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img10.jpg"
+            alt="Image 16"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img24.jpg"
+            alt="Image 20"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img17.jpg"
+            alt="Image 17"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img3.jpg"
+            alt="Image 13"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img21.jpg"
+             alt="Image 6"class="gallery-img" onclick="showImage(src)">
+             <img src="images\Img7.jpg"
+            alt="Image 8"class="gallery-img" onclick="showImage(src)">
+            <img src="images\Img20.jpg"
+            alt="Image 13"class="gallery-img" onclick="showImage(src)">
+        </div>
+        
+        <div class="image-popup-container" id="imagePopup">
+            <span style="font-size: 170px;" class="close-button" onclick="closeImage()">×</span>
+            <img src="" alt="Popup Image" id="popupImage">
+          </div>
+        <br>
+          <br>
+          <br>
+          
+            <a href="#top" class="stt" title="Scroll to Top">Top</a>
+            <a href="#bottom" class="sst" title="Scroll to Bottom"></a>
+         
+      </div>
+      <h3 id="bottom"></h3>
+</body>
+</html>
